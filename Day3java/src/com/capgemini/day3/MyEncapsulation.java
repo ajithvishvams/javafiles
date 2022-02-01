@@ -34,7 +34,7 @@ class Employee
 public class MyEncapsulation {
 	public static void main(String args[])
 	{
-		Employee employee=new Employee(1001, "Ansar", 10000);
+		Employee employee=new Employee(1001, "AJITH", 150000);
 		System.out.println(employee.getEmpID());
 
 	}
