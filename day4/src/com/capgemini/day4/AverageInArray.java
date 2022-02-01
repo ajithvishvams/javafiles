@@ -1,9 +1,8 @@
 package com.capgemini.day4;
 import java.util.Scanner;  
-
-public class AddElementsInArray 
-{
-	 public static void main(String[] args) 
+public class AverageInArray
+{  
+	public static void main(String[] args)   
 	 {  
 		 int n;
 		Scanner sc=new Scanner(System.in);  
@@ -21,7 +20,9 @@ public class AddElementsInArray
 		for (int i = 0; i < n; i++) 
 	    {  
 	         sum = sum + a1[i];  
-	    }  
-	        System.out.println("Sum of all the elements in an array: " + sum);  
-	 }  
-}  
+	    }
+		int average=0;
+		average = sum/ n;
+	        System.out.println("Average of all the elements in an array: " + average);  
+	 }	
+}
