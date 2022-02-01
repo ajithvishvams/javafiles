@@ -1,8 +1,9 @@
 package com.capgemini.day3;
 
-interface Parent1
+abstract interface Parent1
 {
-public void printParent1();
+
+abstract public void printParent1();
 }
 class Parent2
 {
@@ -23,7 +24,9 @@ class Child3 extends Parent2 implements Parent1
 		System.out.println("this is method from parent 1");
 	}
 }
-public class MultipleInheritance {
+
+public class MultipleInheritance 
+{
 
 	
 	public static void main(String args[])
