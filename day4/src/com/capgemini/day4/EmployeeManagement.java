@@ -25,7 +25,8 @@ class EmployeeM
 		this.salary = salary;
 	}
 	@Override
-	public String toString() {
+	public String toString() 
+	{
 		return "EmployeeM [name=" + name + ", iD=" + iD + ", salary=" + salary + "]";
 	}
 

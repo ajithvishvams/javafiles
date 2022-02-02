@@ -13,7 +13,6 @@ public class AverageInArray
 		System.out.println("Enter the elements of the array: ");  
 		for(int i=0; i<n; i++)  
 		{  
-
 			a1[i]=sc.nextInt();  
 		} 
 		int sum=0;

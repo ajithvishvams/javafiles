@@ -1,15 +1,16 @@
 package day2.java;
 
-class Car {
-
+class Car 
+{
   private int price;
   private String brandName;
   private String color;
-
-  Car() {
-
+  
+  //default constructor 
+  Car() 
+  {
   }
-
+  
   Car(int price, String brandName, String color) 
   {
       this.price = price;

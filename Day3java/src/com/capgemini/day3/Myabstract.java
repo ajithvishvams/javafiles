@@ -19,9 +19,6 @@ abstract  class Mobile
 
 class Google extends Mobile
 {
-
-	
-	
 	@Override
 	public void calling() {
 		// TODO Auto-generated method stub
