@@ -1,4 +1,5 @@
-package com.capgemini.day4;
+package com.capgemini.arrayprograms;
+//Avg of all the element of array
 import java.util.Scanner;  
 public class AverageInArray
 {  
@@ -6,11 +7,11 @@ public class AverageInArray
 	 {  
 		 int n;
 		Scanner sc=new Scanner(System.in);  
-		System.out.print("Enter the number of elements: ");  
+		System.out.print("Size of Array: ");  
 		n=sc.nextInt();  
 			
 		int[] a1 = new int[10];  	
-		System.out.println("Enter the elements of the array: ");  
+		System.out.println("Enter the elements for the array: ");  
 		for(int i=0; i<n; i++)  
 		{  
 			a1[i]=sc.nextInt();  
@@ -22,7 +23,7 @@ public class AverageInArray
 	    }
 		int average=0;
 		average = sum/ n;
-	        System.out.println("Average of all the elements in an array: " + average);  
+	        System.out.println("Average of elements in the array: " + average);  
 	        sc.close();
 	 }	
 }

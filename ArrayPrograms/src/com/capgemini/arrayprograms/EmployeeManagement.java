@@ -1,4 +1,5 @@
-package com.capgemini.day4;
+package com.capgemini.arrayprograms;
+//Employee Managements
 import java.util.Scanner;
 
 class Employee {
@@ -9,7 +10,8 @@ class Employee {
 	public Employee() {
 	}
 
-	public Employee(String name, int id, double salary) {
+	public Employee(String name, int id, double salary) 
+	{
 		this.name = name;
 		this.id = id;
 		this.salary = salary;
