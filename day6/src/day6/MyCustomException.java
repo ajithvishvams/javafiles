@@ -19,8 +19,6 @@ class OnlyPostiveNumberAllowed extends Exception
 	
 }
 
-
-
 public class MyCustomException {
 	
 	//exception at method level
