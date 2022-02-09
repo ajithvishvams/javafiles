@@ -11,7 +11,8 @@ public class CountWords
           sentence=sc.nextLine();
         for(int i = 0; i < sentence.length()-1; i++) 
         {  
-            if(sentence.charAt(i) == ' ' && Character.isLetter(sentence.charAt(i+1)) && (i > 0)) {  
+            if(sentence.charAt(i) == ' ' && Character.isLetter(sentence.charAt(i+1)) && (i > 0)) 
+            {  
                 wordCount++;  
             }  
         }
