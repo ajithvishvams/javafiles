@@ -7,7 +7,7 @@ class MyException {
 
 	public void myNewException() throws FileNotFoundException
 	{
-		FileInputStream inputStream = new FileInputStream("c:\\file.txt");
+		FileInputStream inputStream = new FileInputStream("C:\\Users\\ajith\\Desktop\\DxDiag");
 	}
 }
 
