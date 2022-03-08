@@ -11,7 +11,7 @@
 	<property name="password" value="ajith@123" />
 	<property name="mobileno" value="+91 88992233" />
 </bean>
-<bean id="review" class="ratingappproject.ratingapp.">
+<bean id="review" class="ratingappproject.ratingapp.Review">
 	<property name="reviewid" value="1001"/>
 	<property name="product_reviewed" value="Completed"/>
 	<property name="review_text" value="Good Product"/>
